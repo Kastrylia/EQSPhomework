@@ -1,5 +1,9 @@
-function EQSP(){
-    return 'EQSP'
+function EQSP() {
+  return "EQSP";
 }
 
-module.exports = EQSP
+function EQSP_Subtract(a, b) {
+  return a - b;
+}
+
+module.exports = { EQSP, EQSP_Subtract };
